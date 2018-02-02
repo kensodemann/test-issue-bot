@@ -10,4 +10,4 @@ support:
     support channels to get help with the project.
   close: true
   lock: true
-  
+  dryRun: true
