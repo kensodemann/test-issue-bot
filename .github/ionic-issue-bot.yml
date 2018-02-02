@@ -1,5 +1,6 @@
 triage:
   label: triage
+  dryRun: true
 
 support:
   label: support
