@@ -7,7 +7,10 @@ support:
   message: >
     We use the issue tracker exclusively for bug reports and feature requests.
     However, this issue appears to be a support request. Please use our
-    support channels to get help with the project.
+    [forum](https://forum.ionicframework.com) or on our [slack channel](https://ionicworldwide.herokuapp.com/)
+    channels to get help with your question.
+
+    Thanks for using Ionic!
   close: true
   lock: true
   dryRun: false
