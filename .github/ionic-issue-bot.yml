@@ -17,7 +17,7 @@ support:
   dryRun: false
   
 stale:
-  day: 1
+  days: 1
   maxIssuesPerRun: 42
   exemptLabels:
     - good first issue
