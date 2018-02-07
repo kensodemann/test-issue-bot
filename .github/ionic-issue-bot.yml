@@ -30,4 +30,4 @@ stale:
     could mean that the bandwidth does not currently exist in order to fix it.
   close: true
   lock: true
-  dryRun: false
+  dryRun: true
