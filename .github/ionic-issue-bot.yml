@@ -1,6 +1,17 @@
 triage:
   label: triage
   dryRun: false
+  
+incomplete:
+  label: incomplete
+  message: >
+    Dude, fill out that template!! Closing. Reenter, but fill the whole thing out
+
+
+    Thanks for using Ionic!
+  close: true
+  lock: true
+  dryRun: false
 
 support:
   label: support
