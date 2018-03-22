@@ -52,6 +52,13 @@ wrongRepo:
 
 
         Thank-you
+    - label: moveit
+      repo: test-bot-target
+      messsage: >
+        Yo Yo Yo!! Thanks for the issue, but this is the wrong repo. I will move it for you.
+
+
+        You're welcome
     - label: barney
       repo: stencil
       messsage: >
