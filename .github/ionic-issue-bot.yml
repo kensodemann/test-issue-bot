@@ -42,3 +42,24 @@ stale:
   close: true
   lock: true
   dryRun: false
+
+wrongRepo:
+  repos:
+    - label: fred
+      repo: cli
+      messsage: >
+        This is a test message.
+
+
+        Thank-you
+    - label: barney
+      repo: stencil
+      messsage: >
+        This is another test message.
+
+
+        Thank-you
+  close: true
+  lock: true
+  dryRun: false
+  
