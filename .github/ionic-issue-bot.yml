@@ -47,21 +47,21 @@ wrongRepo:
   repos:
     - label: fred
       repo: cli
-      messsage: >
+      message: >
         This is a test message.
 
 
         Thank-you
     - label: moveit
       repo: test-bot-target
-      messsage: >
+      message: >
         Yo Yo Yo!! Thanks for the issue, but this is the wrong repo. I will move it for you.
 
 
         You're welcome
     - label: barney
       repo: stencil
-      messsage: >
+      message: >
         This is another test message.
 
 
