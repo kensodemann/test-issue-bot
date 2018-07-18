@@ -1,7 +1,6 @@
 triage:
   label: triage
-  removeLabelWhenProjectAssigned: true
-  dryRun: true
+  dryRun: false
   
 closeAndLock:
   labels:
