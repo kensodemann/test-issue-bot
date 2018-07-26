@@ -26,6 +26,25 @@ closeAndLock:
   lock: true
   dryRun: false
   
+labelPullRequest:
+  labels:
+    - label: "bot: master-code"
+      branch: master
+    - label: "bot: legacy-code"
+      brach: legacy
+    - label: "bot: about-module"
+      path: .*/about/
+    - label: "bot: home-module"
+      branch: master
+      path: ^src/app/home
+    - label: "bot: config"
+      branch: master
+      path: package.json
+    - label: "bot: config"
+      branch: master
+      path: config.xml
+  dryRun: false
+
 stale:
   days: 1
   maxIssuesPerRun: 42
