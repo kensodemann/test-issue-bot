@@ -31,7 +31,7 @@ labelPullRequest:
     - label: "bot: master-code"
       branch: master
     - label: "bot: legacy-code"
-      brach: legacy
+      branch: legacy
     - label: "bot: about-module"
       path: .*/about/
     - label: "bot: home-module"
