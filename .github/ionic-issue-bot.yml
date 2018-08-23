@@ -46,7 +46,7 @@ labelPullRequest:
   dryRun: false
 
 stale:
-  days: 1
+  days: 3
   maxIssuesPerRun: 42
   exemptLabels:
     - good first issue
@@ -57,6 +57,21 @@ stale:
   message: >
     This issue is being closed due to lack of inactivity. This could mean that it has been fixed or it
     could mean that the bandwidth does not currently exist in order to fix it.
+  close: true
+  lock: true
+  dryRun: false
+  
+noreply:
+  days: 1
+  maxIssuesPerRun: 100
+  label: "needs-reply"
+  responseLabel: "reply-recieved"
+  exemptProjects: true
+  exemptMilestones: true
+  message: >
+    Thanks for the issue! Some nice thing about ppl not responding here.
+
+    Thank you for using Ionic!
   close: true
   lock: true
   dryRun: false
