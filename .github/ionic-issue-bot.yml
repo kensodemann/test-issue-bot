@@ -65,7 +65,7 @@ noreply:
   days: 1
   maxIssuesPerRun: 100
   label: "needs-reply"
-  responseLabel: "reply-recieved"
+  responseLabel: "reply-received"
   exemptProjects: true
   exemptMilestones: true
   message: >
