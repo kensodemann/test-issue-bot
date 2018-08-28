@@ -61,7 +61,7 @@ stale:
   lock: true
   dryRun: false
   
-noreply:
+noReply:
   days: 1
   maxIssuesPerRun: 100
   label: "needs-reply"
