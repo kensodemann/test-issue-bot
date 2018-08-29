@@ -64,8 +64,8 @@ stale:
 noReply:
   days: 1
   maxIssuesPerRun: 100
-  label: "needs-reply"
-  responseLabel: "reply-received"
+  label: needs reply
+  responseLabel: has reply
   exemptProjects: true
   exemptMilestones: true
   message: >
