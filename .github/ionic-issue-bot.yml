@@ -65,7 +65,7 @@ noReply:
   days: 1
   maxIssuesPerRun: 100
   label: needs reply
-  responseLabel: has reply
+  responseLabel: triage
   exemptProjects: true
   exemptMilestones: true
   message: >
