@@ -76,6 +76,17 @@ noReply:
   lock: true
   dryRun: false
 
+lockClosed:
+  days: 30
+  maxIssuesPerRun: 100
+  message: >
+    This issue has been closed for a while now and is now locked to further comment.  If this is still
+    an issue with the latest version of Ionic, please create a new issue and ensure the
+    template is fully filled out.
+
+    Thank you for using Ionic!
+  dryRun: false
+  
 wrongRepo:
   repos:
     - label: fred
