@@ -54,9 +54,6 @@ stale:
   exemptProjects: true
   exemptMilestones: true
   label: wontfix
-  message: >
-    This issue is being closed due to lack of inactivity. This could mean that it has been fixed or it
-    could mean that the bandwidth does not currently exist in order to fix it.
   close: true
   lock: true
   dryRun: false
